@@ -1,0 +1,150 @@
+body {
+    font-size: 15pt;
+}
+html,
+body {
+  height: 100%;
+}
+.bg_dark{
+  background-color: rgb(19, 18, 18);
+  height: 1000%;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.bg_white{
+  background-color: whitesmoke;
+  height: 1000%;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+.icon{
+  box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 1);
+  height: 35px;
+  width: 30px;
+}
+
+.card{
+  box-shadow: 0 4px 7px 0 rgba(0, 0, 0, .5);
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+.sh{
+  max-width: 320px;
+  min-width: 320px;
+}
+
+.nc{
+  margin-right: 1rem;
+}
+
+.nothing{
+  margin-left: 1rem;
+}
+
+.impbtn{
+  float: right;
+}
+
+
+.disc {
+  display: block;
+  width: 300px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.change{
+  background: red;
+}
+
+
+.hidenote{
+  display: none;
+}
+
+.notefun{
+  width: 4rem;
+  margin-left: .6rem
+}
+
+.notebtndiv{
+  display: flex;
+}
+
+
+#plusicon{
+  box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 1);
+  border-radius: 50%;
+  width: 45px;
+  margin-left: 0rem;
+  height: 45px;
+  float: right;
+  display: float;
+}
+
+.viewnote{
+  box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 10);
+  position : absolute;
+  z-index: 5000;
+  top: 250px;
+  min-height: 500px;
+  max-width: 450px;
+  min-width: 200px;
+  border-radius: 5px;
+  display: flex;
+  margin: 1rem 1rem;
+}
+
+.viewicon{
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  float: right;
+  margin-top: .4rem;
+}
+
+.viewbtn{
+  min-width:200px;
+  max-width: 450px;
+}
+
+.p{
+  max-width: 5px;
+  display: inline;
+}
+
+#plusicon:before{
+    display: block;
+    line-height: 1;
+    font-size: 22px;
+}
+.plusicon:before{
+	content:"+";
+}
+.xicon:before{
+	content:"x";
+}
+
+.foot{
+  box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 10);
+}
+.dark:before{
+  content: "Dark";
+}
+.white:before{
+  content: "White";
+}
+
+.dark{
+  width: 66.5px;
+}
